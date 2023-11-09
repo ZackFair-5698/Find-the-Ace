@@ -621,3 +621,4 @@ function saveGameObjectToLocalStorage(score,round)
     updateGameObject(score, round)
     updateLocalStorageItem(localStorageGameKey, getSerializedObjectAsJSON(gameObj))
 }
+
